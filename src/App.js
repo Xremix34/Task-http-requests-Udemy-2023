@@ -34,7 +34,6 @@ function App() {
       }
 
       setMovies(loadedMovies);
-      setIsLoading(false);
     } catch (error) {
       setError(error.message);
     }
